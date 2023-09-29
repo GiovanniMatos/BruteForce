@@ -38,8 +38,7 @@ Após o email/user e wordlist (arquivo .txt contendo possiveis senhas), o navega
 Para cada senha da wordlist, será testada no formulário uma por uma até a senha correspondente ao email/usuário ser encontrada.<br> 
 Logo após isso o navegador abrirá a conta pertencente ao email/usuário adicionado.
 
-![image](https://github.com/GiovanniMatos/Gmail_BruteForce/assets/99231397/668f2314-5cba-49e9-b12a-8f2a42d80d0d)
-![Captura de tela de 2023-09-27 10-27-23](https://github.com/GiovanniMatos/BruteForce/assets/99231397/6b6f7ce9-9a48-43f3-9b13-8d293fdd78bb)
-![Captura de tela 2023-09-25 075153](https://github.com/GiovanniMatos/Gmail_BruteForce/assets/99231397/03cacaed-3f06-4d40-a215-b22800e7d795)
+![270344512-668f2314-5cba-49e9-b12a-8f2a42d80d0d](https://github.com/GiovanniMatos/BruteForce/assets/99231397/83c24574-8fdd-42ba-99c4-a5fc2d1b84b1)
+![271019514-6b6f7ce9-9a48-43f3-9b13-8d293fdd78bb](https://github.com/GiovanniMatos/BruteForce/assets/99231397/44e052a4-6e69-4b14-a5a5-e28bac41a2cd)
 
 obs: caso deseje que o programa execute apenas pelo terminal, retire o texto "headless=False" que está entre parênteses e deixe-o vazio "()".
