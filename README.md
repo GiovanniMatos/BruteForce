@@ -45,6 +45,6 @@ obs: caso deseje que o programa execute apenas pelo terminal, retire o texto "he
 <b>______________________________________________________________________________________________________________</b>
 
 ## Brute Force com pyautogui
-Adicionada uma pasta com o codigo feito com a lib pyautogui, com o mesmo propósito, deverá usar o arquivo "coordenadas.py" para pegar as coordenadas do campo de usuário.
+Adicionada uma pasta com o codigo feito com a lib pyautogui, com o mesmo propósito, deverá usar o arquivo "coordenadas.py" para pegar as coordenadas do campo de usuário (que irá variar de acordo com sua tela).
 Após isso, basta definir a sua lista de senhas com o nome "wordlist.txt" e ao executar o "main.py", digite o usuário do instagram a ser testado.<br>
 ![Sem título](https://github.com/GiovanniMatos/BruteForce/assets/64111507/ef156dd4-2859-4e8c-ada4-29d1982378a5)
