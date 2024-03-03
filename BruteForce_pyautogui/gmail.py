@@ -6,7 +6,7 @@ url = "https://www.instagram.com/"
 user = input("\nUser: ")
 
 wordlist = open('wordlist.txt', 'r').readlines()
-pyautogui.click(x=1151,y=366)
+pyautogui.click(x=1207,y=411)
 time.sleep(1)
 pyautogui.write(user)   
 time.sleep(1)
