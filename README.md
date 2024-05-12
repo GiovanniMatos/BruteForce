@@ -30,10 +30,10 @@ pip install -r requirements.txt
 playwright install
 ```
 # Uso: 
-<b>python3 BruteForce.py -h</b><br>
-<b>python3 BruteForce.py -w default -u usuario_do_insta --instagram</b><br>
-<b>python3 BruteForce.py -w ./sua_wordlist.txt -u email --gmail</b>
-<b>python3 BruteForce.py -w ./sua_wordlist.txt -url https://github.com --routes</b>
+<b>python3 main.py -h</b><br>
+<b>python3 main.py -w default -u usuario_do_insta --instagram</b><br>
+<b>python3 main.py -w ./sua_wordlist.txt -u email --gmail</b><br>
+<b>python3 main.py -w ./sua_wordlist.txt -url https://github.com --routes</b>
 #
 Após o email/user e wordlist (arquivo .txt contendo possiveis senhas), o navegador será aberto na página de login. <br>
 Para cada senha da wordlist, será testada no formulário uma por uma até a senha correspondente ao email/usuário ser encontrada.<br> 
