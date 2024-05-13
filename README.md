@@ -27,7 +27,7 @@ Vá ao diretório desejado para fazer a instalação, ex: Área de Trabalho, e e
 git clone https://github.com/GiovanniMatos/BruteForce.git
 cd BruteForce
 pip install -r requirements.txt
-playwright install
+playwright install firefox
 ```
 # Uso: 
 <b>python3 main.py -h</b><br>
