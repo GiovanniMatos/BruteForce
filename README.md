@@ -42,13 +42,13 @@ After that, the browser will open to the user's account page.
 ![270344512-668f2314-5cba-49e9-b12a-8f2a42d80d0d](https://github.com/GiovanniMatos/BruteForce/assets/99231397/83c24574-8fdd-42ba-99c4-a5fc2d1b84b1)
 ![271019514-6b6f7ce9-9a48-43f3-9b13-8d293fdd78bb](https://github.com/GiovanniMatos/BruteForce/assets/99231397/44e052a4-6e69-4b14-a5a5-e28bac41a2cd)
 
-obs: caso deseje que o programa execute apenas pelo terminal, retire o texto "headless=False" que está entre parênteses e deixe-o vazio "()".<br>
+Note: if you want the program to run only through the terminal, remove the text "headless=False" that is between parentheses and leave it empty "()".<br>
 <b>______________________________________________________________________________________________________________</b>
 
-## Brute Force com pyautogui
+## Brute Force with pyautogui
 ```bash
 pip install pyautogui
 ```
-Adicionada uma pasta com o codigo feito com a lib pyautogui com o mesmo propósito, deverá usar o arquivo "coordenadas.py" para pegar as coordenadas do campo de usuário (que irá variar de acordo com sua tela).
-Após isso, basta definir a sua lista de senhas com o nome "wordlist.txt" e ao executar o "main.py", digite no terminal o usuário do instagram a ser testado.<br>
+Added a folder with the code made with the pyautogui lib for the same purpose, you must use the file "coordenadas.py" to get the coordinates of the user field (which will vary according to your screen).
+After that, simply define your list of passwords with the name "wordlist.txt" and when running "main.py", enter the Instagram user to be tested in the terminal.<br>
 ![Sem título](https://github.com/GiovanniMatos/BruteForce/assets/64111507/ef156dd4-2859-4e8c-ada4-29d1982378a5)
