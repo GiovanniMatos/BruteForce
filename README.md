@@ -1,13 +1,13 @@
 # Brute Force 📧🔓
 
-Este código é útil para simular uma tentativa de invasão para testar a segurança da sua senha do Gmail ou Instagram e até mesmo recuperá-la caso tenha esquecido. Também para enumerar rotas (diretórios) da Aplicação Web.<br>
-Não use para fins ilegais.
+This code is useful for simulating a password attack, testing the security of your Gmail or Instagram passwords, and even recovering them if you've forgotten them. also to enumerate routes (/directory) in web applications.<br>
+Don't use for illegal purposes.
 
-Após smtplib apresentar erros, resolvi utilizar a biblioteca Playwright para automatizar as tentativas de login, usando wordlist.
+After errors in smtplib (python lib), I decided to use lib Playwright to automate login attempts using wordlists. 
 #
-⚠️ <b>Para evitar erros na execução, mantenha o Ambiente Virtual</b><br><br>
+⚠️ <b>To avoid execution errors, keep the virtual environment</b><br><br>
 <b>Virtualenv Windows</b><br>
-Abra o prompt de comando como administrador e execute os comandos abaixo:<br>
+Open command prompt and run the commands below<br>
 ```bash
 pip install virtualenv
 python -m venv venv
@@ -20,8 +20,8 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 (venv)
-## Instalação
-Vá ao diretório desejado para fazer a instalação, ex: Área de Trabalho, e execute os comandos abaixo:<br>
+## Installation
+Go to the path to install, e.g. /Desktop and run the commands below:<br>
 
 ```bash
 git clone https://github.com/GiovanniMatos/BruteForce.git
@@ -29,11 +29,11 @@ cd BruteForce
 pip install -r requirements.txt
 playwright install firefox
 ```
-# Uso: 
+# Usage: 
 <b>python3 main.py -h</b><br>
-<b>python3 main.py -w default -u usuario_do_insta --instagram</b><br>
-<b>python3 main.py -w ./sua_wordlist.txt -u email --gmail</b><br>
-<b>python3 main.py -w ./sua_wordlist.txt -url https://github.com --routes</b>
+<b>python3 main.py -w default -u insta_user --instagram</b><br>
+<b>python3 main.py -w ./your_wordlist.txt -u email --gmail</b><br>
+<b>python3 main.py -w ./your_wordlist.txt -url https://github.com --routes</b>
 #
 Após o email/user e wordlist (arquivo .txt contendo possiveis senhas), o navegador será aberto na página de login. <br>
 Para cada senha da wordlist, será testada no formulário uma por uma até a senha correspondente ao email/usuário ser encontrada.<br> 
