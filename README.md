@@ -35,9 +35,9 @@ playwright install firefox
 <b>python3 main.py -w ./your_wordlist.txt -u email --gmail</b><br>
 <b>python3 main.py -w ./your_wordlist.txt -url https://github.com --routes</b>
 #
-Após o email/user e wordlist (arquivo .txt contendo possiveis senhas), o navegador será aberto na página de login. <br>
-Para cada senha da wordlist, será testada no formulário uma por uma até a senha correspondente ao email/usuário ser encontrada.<br> 
-Logo após isso o navegador abrirá a conta pertencente ao email/usuário adicionado.
+After adding email/user and wordlist (.txt file with possible passwords) the browser will open to the login page. <br>
+For password in wordlist, it will be tried one by one until you find the correct password.<br> 
+After that, the browser will open to the user's account page.
 
 ![270344512-668f2314-5cba-49e9-b12a-8f2a42d80d0d](https://github.com/GiovanniMatos/BruteForce/assets/99231397/83c24574-8fdd-42ba-99c4-a5fc2d1b84b1)
 ![271019514-6b6f7ce9-9a48-43f3-9b13-8d293fdd78bb](https://github.com/GiovanniMatos/BruteForce/assets/99231397/44e052a4-6e69-4b14-a5a5-e28bac41a2cd)
